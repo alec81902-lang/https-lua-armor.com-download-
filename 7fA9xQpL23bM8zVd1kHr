@@ -182,8 +182,8 @@ end
                 }
             },
             Checks = {
-                Enabled = true,
-                Knocked = true,
+                Enabled = false,
+                Knocked = false,
                 Crew = false,
                 Wall = false,
                 Grabbed = false,
@@ -254,7 +254,7 @@ end
                 Material = "Plastic",
             },
             BulletTracers = {
-                Enabled = true,
+                Enabled = false,
                 Color = {
                     Gradient1 = Color3.new(1, 1, 1),
                     Gradient2 = Color3.new(0, 0, 0)
