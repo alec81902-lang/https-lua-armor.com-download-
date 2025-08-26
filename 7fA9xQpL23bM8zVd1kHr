@@ -198,7 +198,7 @@ end
                 Vertical = 0.134
             },
             Resolver = {
-                Enabled = false,
+                Enabled = true,
                 Smoothness = 0.5
             },
             Fov = {
@@ -216,7 +216,7 @@ end
                     Thickness = 2
                 },
                 Dot = {
-                    Enabled = false,
+                    Enabled = true,
                     Color = Color3.new(1, 1, 1),
                     Filled = true,
                     Size = 6
