@@ -173,7 +173,7 @@ end
             Spectate = false,
             PingBased = false,
             UseIndex = false,
-            AntiAimViewer = false,
+            AntiAimViewer = true,
             AutoSelect = {
                 Enabled = false,
                 Cooldown = {
@@ -182,8 +182,8 @@ end
                 }
             },
             Checks = {
-                Enabled = false,
-                Knocked = false,
+                Enabled = true,
+                Knocked = true,
                 Crew = false,
                 Wall = false,
                 Grabbed = false,
@@ -216,7 +216,7 @@ end
                     Thickness = 2
                 },
                 Dot = {
-                    Enabled = true,
+                    Enabled = false,
                     Color = Color3.new(1, 1, 1),
                     Filled = true,
                     Size = 6
@@ -254,7 +254,7 @@ end
                 Material = "Plastic",
             },
             BulletTracers = {
-                Enabled = false,
+                Enabled = true,
                 Color = {
                     Gradient1 = Color3.new(1, 1, 1),
                     Gradient2 = Color3.new(0, 0, 0)
